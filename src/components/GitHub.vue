@@ -1,5 +1,6 @@
 <template>
   <div class="text-gray-900 text-sm">
+
     <nav class="bg-gray-900 text-white px-4 py-3 flex items-center justify-between">
       <div class="flex items-center space-x-4">
         <a href="#" class="text-white hover:text-gray-400">
@@ -33,6 +34,7 @@
         </a>
       </div>
     </nav>
+
     <div class="repo-stats flex flex-col lg:flex-row items-center justify-between px-8 py-4">
       <div class="flex">
         <svg class="w-4 fill-current text-gray-600" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
@@ -74,6 +76,7 @@
           <svg class="w-4 fill-current" classes="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg>
           <span class="ml-2">Code</span>
         </a>
+      </li>
         <li>
           <a href="#" class="flex items-center border-b-2 border-transparent hover:border-gray-400 transition ease-in-out duration-150 px-4 pb-3">
             <svg class="w-4 fill-current text-gray-600" classes="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg>
@@ -112,8 +115,8 @@
           <span class="ml-2">Insights</span>
         </a>
       </li>
-      </li>
     </ul> <!-- end repo-nav -->
+
     <div class="container mx-auto my-8 px-4 flex flex-col lg:flex-row">
       <div class="file-explorer-container w-full lg:w-3/4 lg:mr-8">
         <div class="branch-navigation flex items-center justify-between">
@@ -156,8 +159,8 @@
 
         <div class="commits-container bg-blue-100 rounded-md rounded-b-none border border-blue-200 border-b-0 flex items-center justify-between px-4 py-4 mt-5">
           <div class="flex items-center space-x-2">
-            <a href="#"><img src="https://avatars2.githubusercontent.com/u/4323180?s=60&u=4962a4441fae9fba5f0f86456c6c506a21ffca4f&v=4" alt="avatar" class="w-6 h-6 rounded-full"></a>
-            <a href="#" class="font-semibold hover:underline">adamwathan</a>
+            <a href="#"><img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" alt="avatar" class="w-6 h-6 rounded-full"></a>
+            <a href="#" class="font-semibold hover:underline">omwaga</a>
             <a href="#" class="hover:underline hover:text-blue-600">1.5.1</a>
           </div>
           <div class="flex items-end">
@@ -175,13 +178,14 @@
             </a>
           </div>
         </div> <!-- end commits-container -->
+
         <div class="file-explorer rounded-md rounded-t-none border border-gray-400 text-gray-700 divide-y divide-gray-400">
-          <div class="flex justify-between px-4 py-2 hover:bg-gray-200">
+          <div class="flex justify-center px-4 py-2 hover:bg-gray-200">
             <div class="w-4/12 flex items-center">
               <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory" viewBox="0 0 16 16" role="img"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path></svg>
               <a href="#" class="hover:underline hover:text-blue-600 ml-3">.github</a>
             </div>
-            <div class="w-6/12 truncate hidden lg:block"><a href="#" class="hover:underline hover:text-blue-600">Update issues template</a></div>
+            <div class="w-6/12 truncate hidden lg:block text-left"><a href="#" class="hover:underline hover:text-blue-600">Update issues template</a></div>
             <div class="w-4/12 lg:w-2/12 text-right">11 days ago</div>
           </div>
           <div class="flex justify-between px-4 py-2 hover:bg-gray-200">
@@ -189,7 +193,7 @@
               <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory" viewBox="0 0 16 16" role="img"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path></svg>
               <a href="#" class="hover:underline hover:text-blue-600 ml-3">__tests__</a>
             </div>
-            <div class="w-6/12 truncate hidden lg:block"><a href="#" class="hover:underline hover:text-blue-600">Remove stale test</a></div>
+            <div class="w-6/12 truncate hidden lg:block text-left"><a href="#" class="hover:underline hover:text-blue-600">Remove stale test</a></div>
             <div class="w-4/12 lg:w-2/12 text-right">4 days ago</div>
           </div>
           <div class="flex justify-between px-4 py-2 hover:bg-gray-200">
@@ -197,7 +201,7 @@
               <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory" viewBox="0 0 16 16" role="img"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path></svg>
               <a href="#" class="hover:underline hover:text-blue-600 ml-3">dist</a>
             </div>
-            <div class="w-6/12 truncate hidden lg:block"><a href="#" class="hover:underline hover:text-blue-600">Add empty .npmignore so dist files are distributed with releases</a></div>
+            <div class="w-6/12 truncate hidden lg:block text-left"><a href="#" class="hover:underline hover:text-blue-600">Add empty .npmignore so dist files are distributed with releases</a></div>
             <div class="w-4/12 lg:w-2/12 text-right">3 years ago</div>
           </div>
           <div class="flex justify-between px-4 py-2 hover:bg-gray-200">
@@ -205,7 +209,7 @@
               <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory" viewBox="0 0 16 16" role="img"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path></svg>
               <a href="#" class="hover:underline hover:text-blue-600 ml-3">jest</a>
             </div>
-            <div class="w-6/12 truncate hidden lg:block"><a href="#" class="hover:underline hover:text-blue-600">Use `process.env.JEST_WORKER_ID`</a></div>
+            <div class="w-6/12 truncate hidden lg:block text-left"><a href="#" class="hover:underline hover:text-blue-600">Use `process.env.JEST_WORKER_ID`</a></div>
             <div class="w-4/12 lg:w-2/12 text-right">15 months ago</div>
           </div>
           <div class="flex justify-between px-4 py-2 hover:bg-gray-200">
@@ -213,7 +217,7 @@
               <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory" viewBox="0 0 16 16" role="img"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path></svg>
               <a href="#" class="hover:underline hover:text-blue-600 ml-3">scripts</a>
             </div>
-            <div class="w-6/12 truncate hidden lg:block"><a href="#" class="hover:underline hover:text-blue-600">Prevent source maps from being generated</a></div>
+            <div class="w-6/12 truncate hidden lg:block text-left"><a href="#" class="hover:underline hover:text-blue-600">Prevent source maps from being generated</a></div>
             <div class="w-4/12 lg:w-2/12 text-right">21 days ago</div>
           </div>
           <div class="flex justify-between px-4 py-2 hover:bg-gray-200">
@@ -221,7 +225,7 @@
               <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory" viewBox="0 0 16 16" role="img"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path></svg>
               <a href="#" class="hover:underline hover:text-blue-600 ml-3">src</a>
             </div>
-            <div class="w-6/12 truncate hidden lg:block"><a href="#" class="hover:underline hover:text-blue-600">Only wrap with variants if rules don't already contain any variants</a></div>
+            <div class="w-6/12 truncate hidden lg:block text-left"><a href="#" class="hover:underline hover:text-blue-600">Only wrap with variants if rules don't already contain any variants</a></div>
             <div class="w-4/12 lg:w-2/12 text-right">4 days ago</div>
           </div>
           <div class="flex justify-between px-4 py-2 hover:bg-gray-200">
@@ -229,7 +233,7 @@
               <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory" viewBox="0 0 16 16" role="img"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path></svg>
               <a href="#" class="hover:underline hover:text-blue-600 ml-3">stubs</a>
             </div>
-            <div class="w-6/12 truncate hidden lg:block"><a href="#" class="hover:underline hover:text-blue-600">Generate responsive variants for container by default</a></div>
+            <div class="w-6/12 truncate hidden lg:block text-left"><a href="#" class="hover:underline hover:text-blue-600">Generate responsive variants for container by default</a></div>
             <div class="w-4/12 lg:w-2/12 text-right">4 days ago</div>
           </div>
           <div class="flex justify-between px-4 py-2 hover:bg-gray-200">
@@ -237,7 +241,7 @@
               <svg class="w-4 fill-current text-gray-600" color="gray-light" aria-label="File" viewBox="0 0 16 16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
               <a href="#" class="hover:underline hover:text-blue-600 ml-3">.editorconfig</a>
             </div>
-            <div class="w-6/12 truncate hidden lg:block"><a href="#" class="hover:underline hover:text-blue-600">Convert new stuff to use ES6 modules</a></div>
+            <div class="w-6/12 truncate hidden lg:block text-left"><a href="#" class="hover:underline hover:text-blue-600">Convert new stuff to use ES6 modules</a></div>
             <div class="w-4/12 lg:w-2/12 text-right">3 years ago</div>
           </div>
           <div class="flex justify-between px-4 py-2 hover:bg-gray-200">
@@ -245,7 +249,7 @@
               <svg class="w-4 fill-current text-gray-600" color="gray-light" aria-label="File" viewBox="0 0 16 16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
               <a href="#" class="hover:underline hover:text-blue-600 ml-3">.eslintignore</a>
             </div>
-            <div class="w-6/12 truncate hidden lg:block"><a href="#" class="hover:underline hover:text-blue-600">Updated CLI init commend</a></div>
+            <div class="w-6/12 truncate hidden lg:block text-left"><a href="#" class="hover:underline hover:text-blue-600">Updated CLI init commend</a></div>
             <div class="w-4/12 lg:w-2/12 text-right">16 months ago</div>
           </div>
           <div class="flex justify-between px-4 py-2 hover:bg-gray-200">
@@ -253,7 +257,7 @@
               <svg class="w-4 fill-current text-gray-600" color="gray-light" aria-label="File" viewBox="0 0 16 16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
               <a href="#" class="hover:underline hover:text-blue-600 ml-3">.eslintrc.json</a>
             </div>
-            <div class="w-6/12 truncate hidden lg:block"><a href="#" class="hover:underline hover:text-blue-600">Disable lint rule for TODO comments</a></div>
+            <div class="w-6/12 truncate hidden lg:block text-left"><a href="#" class="hover:underline hover:text-blue-600">Disable lint rule for TODO comments</a></div>
             <div class="w-4/12 lg:w-2/12 text-right">3 months ago</div>
           </div>
           <div class="flex justify-between px-4 py-2 hover:bg-gray-200">
@@ -261,7 +265,7 @@
               <svg class="w-4 fill-current text-gray-600" color="gray-light" aria-label="File" viewBox="0 0 16 16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
               <a href="#" class="hover:underline hover:text-blue-600 ml-3">plugin.js</a>
             </div>
-            <div class="w-6/12 truncate hidden lg:block"><a href="#" class="hover:underline hover:text-blue-600 truncate hidden lg:block">Add new `plugin` and `plugin.withOptions` functions for creating plugins</a></div>
+            <div class="w-6/12 truncate hidden lg:block text-left"><a href="#" class="hover:underline hover:text-blue-600 truncate hidden lg:block">Add new `plugin` and `plugin.withOptions` functions for creating plugins</a></div>
             <div class="w-4/12 lg:w-2/12 text-right">7 months ago</div>
           </div>
           <div class="flex justify-between px-4 py-2 hover:bg-gray-200">
@@ -269,7 +273,7 @@
               <svg class="w-4 fill-current text-gray-600" color="gray-light" aria-label="File" viewBox="0 0 16 16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
               <a href="#" class="hover:underline hover:text-blue-600 ml-3">README.md</a>
             </div>
-            <div class="w-6/12 truncate hidden lg:block"><a href="#" class="hover:underline hover:text-blue-600">Add alt attribute to logo</a></div>
+            <div class="w-6/12 truncate hidden lg:block text-left"><a href="#" class="hover:underline hover:text-blue-600">Add alt attribute to logo</a></div>
             <div class="w-4/12 lg:w-2/12 text-right">2 months ago</div>
           </div>
           <div class="flex justify-between px-4 py-2 hover:bg-gray-200">
@@ -277,7 +281,7 @@
               <svg class="w-4 fill-current text-gray-600" color="gray-light" aria-label="File" viewBox="0 0 16 16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
               <a href="#" class="hover:underline hover:text-blue-600 ml-3">tailwind.css</a>
             </div>
-            <div class="w-6/12 truncate hidden lg:block"><a href="#" class="hover:underline hover:text-blue-600">Undo accidental changes to CDN build process</a></div>
+            <div class="w-6/12 truncate hidden lg:block text-left"><a href="#" class="hover:underline hover:text-blue-600">Undo accidental changes to CDN build process</a></div>
             <div class="w-4/12 lg:w-2/12 text-right">7 months ago</div>
           </div>
           <div class="flex justify-between px-4 py-2 hover:bg-gray-200">
@@ -285,7 +289,7 @@
               <svg class="w-4 fill-current text-gray-600" color="gray-light" aria-label="File" viewBox="0 0 16 16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
               <a href="#" class="hover:underline hover:text-blue-600 ml-3">utilities.css</a>
             </div>
-            <div class="w-6/12 truncate hidden lg:block"><a href="#" class="hover:underline hover:text-blue-600">Move CSS files to root for easier imports</a></div>
+            <div class="w-6/12 truncate hidden lg:block text-left"><a href="#" class="hover:underline hover:text-blue-600">Move CSS files to root for easier imports</a></div>
             <div class="w-4/12 lg:w-2/12 text-right">2 years ago</div>
           </div>
         </div> <!-- end file-explorer -->
@@ -354,14 +358,14 @@
 
           <div class="mt-4">
             <a href="#" class="flex items-center -space-x-2">
-              <img src="https://s3.amazonaws.com/uifaces/faces/twitter/antonyzotov/128.jpg" class="w-8 border-2 border-white rounded-full" alt="avatar">
-              <img src="https://s3.amazonaws.com/uifaces/faces/twitter/pcridesagain/128.jpg" class="w-8 rounded-full border-2 border-white" alt="avatar">
-              <img src="https://s3.amazonaws.com/uifaces/faces/twitter/davidhemphill/128.jpg" class="w-8 rounded-full border-2 border-white" alt="avatar">
-              <img src="https://s3.amazonaws.com/uifaces/faces/twitter/abdots/128.jpg" class="w-8 rounded-full border-2 border-white" alt="avatar">
-              <img src="https://s3.amazonaws.com/uifaces/faces/twitter/kerem/128.jpg" class="w-8 rounded-full border-2 border-white" alt="avatar">
-              <img src="https://s3.amazonaws.com/uifaces/faces/twitter/runningskull/128.jpg" class="w-8 rounded-full border-2 border-white" alt="avatar">
-              <img src="https://s3.amazonaws.com/uifaces/faces/twitter/gusoto/128.jpg" class="w-8 rounded-full border-2 border-white" alt="avatar">
-              <img src="https://s3.amazonaws.com/uifaces/faces/twitter/rodnylobos/128.jpg" class="w-8 rounded-full border-2 border-white" alt="avatar">
+              <img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" class="w-8 border-2 border-white rounded-full" alt="avatar">
+              <img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" class="w-8 rounded-full border-2 border-white" alt="avatar">
+              <img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" class="w-8 rounded-full border-2 border-white" alt="avatar">
+              <img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" class="w-8 rounded-full border-2 border-white" alt="avatar">
+              <img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" class="w-8 rounded-full border-2 border-white" alt="avatar">
+              <img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" class="w-8 rounded-full border-2 border-white" alt="avatar">
+              <img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" class="w-8 rounded-full border-2 border-white" alt="avatar">
+              <img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" class="w-8 rounded-full border-2 border-white" alt="avatar">
               <span class="text-xs text-blue-600 font-semibold hover:underline" style="margin-left:0.5rem">+ 58,357</span>
             </a>
           </div>
@@ -374,16 +378,16 @@
           </h4>
 
           <div class="flex items-center flex-wrap mt-2">
-            <a href="#"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/vitorleal/128.jpg" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
-            <a href="#"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/byryan/128.jpg" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
-            <a href="#"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/juamperro/128.jpg" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
-            <a href="#"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/herkulano/128.jpg" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
-            <a href="#"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/jlsolerdeltoro/128.jpg" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
-            <a href="#"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/kostaspt/128.jpg" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
-            <a href="#"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/trubeatto/128.jpg" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
-            <a href="#"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/stan/128.jpg" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
-            <a href="#"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/sandywoodruff/128.jpg" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
-            <a href="#"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/chacky14/128.jpg" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+            <a href="#"><img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+            <a href="#"><img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+            <a href="#"><img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+            <a href="#"><img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+            <a href="#"><img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+            <a href="#"><img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+            <a href="#"><img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+            <a href="#"><img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+            <a href="#"><img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
+            <a href="#"><img src="https://avatars.githubusercontent.com/u/23040138?s=60&v=4" alt="avatar" class="w-8 rounded-full mr-2 mt-2"></a>
           </div>
 
           <div class="mt-4">
